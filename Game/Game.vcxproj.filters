@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{e71bef2a-be18-47d3-a2d3-87bca6290684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{6e382ca4-2981-4123-abf3-5df0836a46de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{d0325cee-0065-4985-8de5-886b98f68e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Collision">
+      <UniqueIdentifier>{01ed957e-cc77-4c8f-baf9-968b498401e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Zone">
+      <UniqueIdentifier>{42e93034-be33-4d81-b338-ad101f2aa383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Background">
+      <UniqueIdentifier>{5f8eae46-514f-4316-9f70-c2e2830c6a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Zone\BattleZone">
+      <UniqueIdentifier>{a759a2c8-4cd7-4e75-9d37-de7493556df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Zone\EnemyZone">
+      <UniqueIdentifier>{7bf8dee9-66f2-4d1a-a74c-ebeeb7fa57dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Deck">
+      <UniqueIdentifier>{888463f8-04fe-493f-ba5c-cf3078d2ca8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Deck\Stater">
+      <UniqueIdentifier>{3787739a-69de-44b3-92a3-67906378369b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Deck\Bot">
+      <UniqueIdentifier>{d67accac-70fb-4bab-8254-bd57714b406a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\GamePlay">
+      <UniqueIdentifier>{532aaa88-2400-44b7-8ca5-c6695e0b3b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Deck\Spell">
+      <UniqueIdentifier>{9cb52764-3a9e-442a-953e-200fe0377cab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\WindowConnector.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameButton.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HitBox.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Collision\CollisionManager.cpp">
+      <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\Zone.cpp">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Background\Background.cpp">
+      <Filter>Source Files\GameObjects\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\DeckZone.cpp">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone.cpp">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone\BattleZone_1.cpp">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone\BattleZone_2.cpp">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone\BattleZone_3.cpp">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone\BattleZone_4.cpp">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\BattleZone\BattleZone_5.cpp">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_1.cpp">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_2.cpp">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_3.cpp">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_4.cpp">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_5.cpp">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Cards.cpp">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\Pikachu.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\PSUp1.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\ScoreManager.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\PSUpb1.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\Rattata.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GamePlay\End.cpp">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GamePlay\Start.cpp">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GamePlay\Player.cpp">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\PSBDown.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\PSBMAttack.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\PSBMMove.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\PSBMPick.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\Charmander.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\Bulbasaur.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\Froakie.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\Chansey.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\PSSDown.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\PSSMAttack.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\PSSMMove.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\PSSMPick.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Spell\PSUpS.cpp">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\PSDown.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\PSMAttack.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\PSMMove.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\PSMPick.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\PSMDefense.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\Geodude.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSWEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSLEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSSetting.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Death.cpp">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Stater\Snorlax.cpp">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\Magikarp.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\Mareep.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Deck\Bot\Turwig.cpp">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSAbout.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WindowConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameButton.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HitBox.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Collision\CollisionManager.h">
+      <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\Zone.h">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Background\Background.h">
+      <Filter>Source Files\GameObjects\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\ZoneManager.h">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\DeckZone.h">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone.h">
+      <Filter>Source Files\GameObjects\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone_1.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone_2.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone_3.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone_4.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\BattleZone\BattleZone_5.h">
+      <Filter>Source Files\GameObjects\Zone\BattleZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_1.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_2.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_3.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_4.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Zone\EnemyZone\EnemyZone_5.h">
+      <Filter>Source Files\GameObjects\Zone\EnemyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\IPMonster.h">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\IPMState.h">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Cards.h">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\Pikachu.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Deck.h">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\PSUp1.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\ScoreManager.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\PSUpb1.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\Rattata.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GamePlay\End.h">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GamePlay\Start.h">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GamePlay\Player.h">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GamePlay\GamePlay.h">
+      <Filter>Source Files\GameObjects\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\PSBDown.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\PSBMAttack.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\PSBMMove.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\PSBMPick.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\Charmander.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\Bulbasaur.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\Froakie.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\Chansey.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\PSSDown.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\PSSMAttack.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\PSSMMove.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\PSSMPick.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Spell\PSUpS.h">
+      <Filter>Source Files\GameObjects\Deck\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\PSMPick.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\PSDown.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\PSMAttack.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\PSMMove.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\PSMDefense.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\Geodude.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSWEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSLEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSSetting.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Death.h">
+      <Filter>Source Files\GameObjects\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Stater\Snorlax.h">
+      <Filter>Source Files\GameObjects\Deck\Stater</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\Magikarp.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\Mareep.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Deck\Bot\Turwig.h">
+      <Filter>Source Files\GameObjects\Deck\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSAbout.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  GSSetting.cpp
+F:\projectd21\Game\Game\Sources\GameStateManager\GSSetting.cpp(56,32): warning C4305: 'argument': truncation from 'double' to 'float'
+  Game.vcxproj -> F:\projectd21\Game\Debug\Game.exe
